@@ -1,5 +1,7 @@
 <h1 align="center">API REST - ASTRO DB</h1>
 
+![App scheme](https://i.ibb.co/Jrj3Yk0/rest-schema.png)
+
 Desarrollar una API REST que permita interactuar con un sistema de registro de datos astrológicos de las personas. Al interactuar con la API se debe poder realizar las acciones detalladas más abajo, algunas de las cuales necesitan autorización especial. Para controlar el acceso a los recursos privados vamos a usar el sistema de autenticación por tokens.
 
 #### CRUD DE USUARIOS
@@ -66,12 +68,15 @@ Pueden armar la estructura de carpetas del proyecto de esta forma:
     - Iniciar el proyecto con NPM
     - Instalar dependencias de desarrollo y principales
 3. Iniciar el repo de git y hacer el primer commit
-4. Desarrollar el endpoint de login
-5. Desarrollar el middleware para autorizar usuarios
-6. Desarrollar el endpoint para crear una nueva carta natal
-7. Validar los datos con zod
-8. Probar el endpoint con datos reales: una alumna comparte su puerto y el resto le hace solicitudes con sus datos natales hasta completar la DB con los datos de todas
-9. Completar el resto de los endpoints
+4. Desarrollar el endpoint para obtener la info general de la API.
+5. Configurar los scripts, testearlos y hacer el deploy a Render (crear un nuevo servicio WEB).
+6. Desarrollar el endpoint de login
+7. Desarrollar el middleware para autorizar usuarios
+8. Desarrollar el endpoint para crear una nueva carta natal
+9. Validar los datos con zod
+10. Probar el endpoint con datos reales: una alumna comparte su puerto y el resto le hace solicitudes con sus datos natales hasta completar la DB con los datos de todas
+11. Commitear los cambios y pushear a GH.
+12. Completar el resto de los endpoints
 
 <h1 align="center">BUENAS PRÁCTICAS | ¿Cómo crear APIs robustas?</h1>
 <h3 align="center">Artículo producido por EDTEAM</h3>
