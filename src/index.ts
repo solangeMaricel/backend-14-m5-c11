@@ -1,9 +1,13 @@
 import express, { json } from 'express';
-//import { userRouter } from './routes/user-router';
+import { userRouter } from './routes/user-router';
+//import { chartRouter } from './routes/chart-router';
 
 const PORT = 36000;
 const app = express();
 app.use(json());
+
+app.use('/api/users', userRouter);
+//app.use('/api/chart', chartRouter)
 
 
 app.get('/api', (req, res) => {
